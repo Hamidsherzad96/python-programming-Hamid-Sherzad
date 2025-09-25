@@ -27,11 +27,11 @@ print(f"Länged av katetern b är{b: .1f} cm.")
 x = 300
 y = 365
 
-accuracy = 300/365
+accuracy = x/y
 
-print(accuracy)
+print (accuracy)
 
-#alternativt
+#alternativt utförligare
 procent = accuracy*100
 
 print(f"Träffsäkerheten av modellen är{procent:.2f}%.")
@@ -66,6 +66,11 @@ k = (4-1)/(4-0)
 
 print(k)
 
+#annorlunda lösning:
+
+a = (4,4)
+b = (0,1)
+
 #Uppgift: 5
 
 p1 = (3, 5)
@@ -74,6 +79,20 @@ p2 = (-2, 4)
 distance = math.sqrt((p2[0]-p1[0])**2+(p2[1]-p1[1])**2)
 
 print(f"Längden är {distance:.1f}cm")
+
+#annorlunda lösning:
+
+P = (3, 5)
+Q = (-2,4)
+
+p1 = 3
+p2 = 5
+q1 = -2
+q2 = 4
+
+d = math.sqrt((p1-q1)**2 + (p2 - q2)**2)
+
+print(d)
 
 #Uppgift: 6
 
@@ -84,5 +103,7 @@ distance = math.sqrt((p1[0]-p2[0])**2 + (p1[1]-p2[1])**2 + (p1[2]-p2[2])**2)
 
 print(f"Längden mellan de två punkterna är ca {distance:.2f}")
 
-#Klappat och klart
-                     
+#annorlunda lösning
+
+
+#Klappat och klart 

@@ -1,1 +1,42 @@
+num1 = 8
+num2 = 5
 
+if num1 < num2:
+    print("värdet är mindre:", num1)
+elif num2 < num1:
+    print("värdet är mindre:", num2)
+else:
+    print("båda har lika värde")
+
+
+value = int(input("ange ett heltal: "))
+
+if value == 0:
+    print("värdet är 0")
+elif value > 0:
+    print("värdet är större än 0")
+else:
+    print("värdet är mindre än noll")
+
+
+a = float(input("90: "))
+b = float(input("90: "))
+c = float(input("90: "))
+
+if a == 90 or b == 90 or c == 90:
+    print("Triangeln har rätt vinkel. ")
+
+else:
+    print("Vinklarna blir ingen triange. ")
+
+age = int(input("12: "))
+weight = float(input("40: "))
+
+if weight > 40:
+    print("Rekommenderad dos är 1-2 tabletter")
+elif weight >= 26:
+    print("Rekommenderad dso är 1/2 - 1 tablett")
+elif weight >= 15:
+    print("Rekommenderad dos är 1/2 tablett")
+else:
+    print("inte rekommenderad (för låg vikt)")
